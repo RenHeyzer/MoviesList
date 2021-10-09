@@ -1,5 +1,6 @@
-package com.example.movieslist.api
+package com.example.movieslist.data.network
 
+import com.example.movieslist.data.network.apiservices.MovieApiService
 import com.example.movieslist.utils.Constants
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

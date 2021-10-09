@@ -1,4 +1,4 @@
-package com.example.movieslist.api
+package com.example.movieslist.data.network.apiservices
 
 import com.example.movieslist.models.Movie
 import com.example.movieslist.utils.Constants.SHOWS_END_POINT

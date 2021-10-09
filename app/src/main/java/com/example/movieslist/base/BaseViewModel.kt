@@ -6,6 +6,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 
 abstract class BaseViewModel : ViewModel() {
-    val job = Job()
+    private val job = Job()
     val uiScope = CoroutineScope(Dispatchers.Main.plus(job))
 }

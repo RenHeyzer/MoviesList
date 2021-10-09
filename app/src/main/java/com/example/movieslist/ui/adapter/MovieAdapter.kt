@@ -4,10 +4,10 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import coil.load
 import com.example.movieslist.databinding.ItemMovieBinding
 import com.example.movieslist.interfaces.OnItemClickListener
 import com.example.movieslist.models.Movie
+import com.example.movieslist.utils.loadImage
 
 class MovieAdapter(private var pListener: OnItemClickListener) :
     androidx.recyclerview.widget.ListAdapter<Movie, MovieAdapter.MovieViewHolder>(MovieDiffUtil()) {
@@ -22,20 +22,13 @@ class MovieAdapter(private var pListener: OnItemClickListener) :
         }
     }
 
-    fun setOnClickListener(listener: OnItemClickListener) {
-        pListener = listener
-    }
-
     inner class MovieViewHolder(
         private val itemBinding: ItemMovieBinding, private val listener: OnItemClickListener
     ) : RecyclerView.ViewHolder(itemBinding.root) {
         fun onBind(item: Movie) {
             itemBinding.apply {
                 itemBinding.itemMovieTitle.text = item.name
-                itemBinding.itemMovieImage.load(item.image.original) {
-                    crossfade(true)
-                    crossfade(1000)
-                }
+                itemBinding.itemMovieImage.loadImage(item.image.original)
                 itemView.setOnClickListener {
                     listener.onItemClick(item.id)
                 }

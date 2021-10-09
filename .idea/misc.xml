@@ -6,9 +6,13 @@
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/drawable-v24/background_of_movie_table.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/drawable/background_of_movie_item.xml" value="0.18981481481481483" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/drawable/ic_baseline_language_24.xml" value="0.18981481481481483" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/drawable/splash_background.xml" value="0.15462962962962962" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/drawable/splash_backround.xml" value="0.15462962962962962" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/layout/activity_splash_screen.xml" value="0.12318840579710146" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/layout/fragment_detail_movie.xml" value="0.2" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/layout/fragment_movie.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/layout/fragment_no_connection.xml" value="0.1598731884057971" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MoviesList/app/src/main/res/layout/item_movie.xml" value="0.1793478260869565" />
       </map>
     </option>
